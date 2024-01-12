@@ -6,10 +6,9 @@
 #banner{
 	height:100vh;
 	width:100%;
-	background-image:url(../image/pic-1.jpg);
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../image/pic-1.jpg);
 	background-size:cover;
 	background-position:center;
-	filter:brightness(0.6);
 	font-family: 'Raleway', sans-serif;
 }
 .container{
@@ -40,7 +39,7 @@
 .ban-cnt p{
 	font-size:11px;
 	padding:20px 50px;
-
+	
 }
 .ban-cnt-row{
 	display:flex;
@@ -67,7 +66,7 @@
 	border-left: 1px solid #fff;
 	height: 65px;
 	position:absolute;
-	top:437px;
+	top:438px;
 	right:51.2%;
 }
 .ban-box h4{
